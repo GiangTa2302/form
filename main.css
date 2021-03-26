@@ -1,0 +1,63 @@
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+input:focus{
+    border-radius: 20%;
+    background-color: aqua;
+    border: 2px solid yellow;
+    cursor: text;
+}
+
+
+form{
+    padding: 200px;
+    border: 5px solid red;
+    border-radius: 20%;
+    background-color: gray;
+    color: white;
+}
+
+.submit{
+    background-color: blue;
+    color: white;
+}
+
+
+label::after{
+    content: "*";
+    color: red;
+}
+
+form{
+    background-image: url(nen.jpg);
+    background-size: cover;
+}
+
+input[type="submit"]{
+    background-color: cadetblue;
+    color: blueviolet;
+}
+
+input[type="submit"]:hover{
+    background-color:coral;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
